@@ -18,8 +18,8 @@ RUN apt-get update && apt-get install -y gcc && rm -rf /var/lib/apt/lists/*
 #	&& apt-get purge -y --auto-remove ca-certificates wget
 
 WORKDIR /deported
-COPY . .
 
+COPY *.c ./
 RUN gcc -o /usr/local/bin/app *.c
 
 CMD ["app"]
