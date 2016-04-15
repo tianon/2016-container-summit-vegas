@@ -15,6 +15,9 @@ FROM debian:jessie
 #	&& gosu nobody true \
 #	&& apt-get purge -y --auto-remove ca-certificates wget
 
-COPY app.sh /usr/local/bin/
+COPY *.sh /usr/local/bin/
 
+#VOLUME /var/lib/app
+
+#ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["app.sh"]
