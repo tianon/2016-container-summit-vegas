@@ -19,5 +19,7 @@ COPY *.sh /usr/local/bin/
 
 #VOLUME /var/lib/app
 
+#USER nobody
+
 #ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["app.sh"]
