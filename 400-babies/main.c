@@ -2,15 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/** /
-void sighdlr(int sig) {
-	printf("lolsig %d\n", sig);
-	exit(0);
-}
-/**/
+//void sighdlr(int sig) { printf("lolsig %d\n", sig); exit(0); }
 
 int main() {
 	//if (signal(SIGCHLD, SIG_IGN) == SIG_ERR) { perror(0); exit(1); }
+
 	//if (signal(SIGTERM, sighdlr) == SIG_ERR) { perror(0); exit(1); }
 	//if (signal(SIGINT, sighdlr) == SIG_ERR) { perror(0); exit(1); }
 
