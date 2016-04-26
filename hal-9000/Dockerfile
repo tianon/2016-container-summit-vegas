@@ -17,6 +17,8 @@ FROM debian:jessie
 
 COPY *.sh /usr/local/bin/
 
+#RUN mkdir -p /var/lib/app && chown -R nobody /var/lib/app
+
 #VOLUME /var/lib/app
 
 #USER nobody
