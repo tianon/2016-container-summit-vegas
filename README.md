@@ -28,4 +28,9 @@
 
 ## What is this?
 
-When preparing an application to run inside a Docker container (so called "Dockerization"), there are a few potential baby dragons waiting to strike on the unsuspecting developer (or the poor ops they hand the application off to).  In this talk, we'll explore a few of these snags, and the mitigation strategies that have been the most effective in our experiences working with Dockerizing software.
+When preparing an application to run inside a Docker container (so called
+"Dockerization"), there are a few potential baby dragons waiting to strike on
+the unsuspecting developer (or the poor ops they hand the application off to).
+In this talk, we'll explore a few of these snags, and the mitigation strategies
+that have been the most effective in our experiences working with Dockerizing
+software.
