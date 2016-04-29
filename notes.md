@@ -1,6 +1,16 @@
+# README.md
+
+yeah, in Vim (dat my "slides")
+
+
+# warning
+
+if you're already familiar with the problems/solutions I'm going to be demonstrating, this might be a little bit slow-paced for your taste
+
+
 # base
 
-I'm a DD, let's start with a few Debian notes
+I'm a DD, let's start with a few Debian notes (thanks [@nathanleclaire](https://github.com/nathanleclaire)!)
 
 - `build-essential` is not likely what you want (unless you're building `.deb` packages)
   - https://packages.debian.org/sid/build-essential
@@ -11,6 +21,8 @@ I'm a DD, let's start with a few Debian notes
 
 
 # 400-babies
+
+- show off `main.c` (simple "forkcandle")
 
 - `docker build`, `docker run -d`, `docker top`, ZOMBIES
 
@@ -27,3 +39,22 @@ I'm a DD, let's start with a few Debian notes
 - `tini`
   - https://github.com/krallin/tini
   - https://github.com/Yelp/dumb-init
+
+
+# hal-9000
+
+- show off `app.sh` (simple "database" lolol)
+
+- `docker build`, `docker run`, aww c'mon HAL
+
+- `VOLUME`, woot! (but `root`)
+
+- `USER`, aww
+
+- `mkdir && chown`, woot
+
+- `-v "$PWD/db":/var/lib/app`, aww
+
+- un-`USER`, add `gosu` and `docker-entrypoint.sh`
+  - https://github.com/tianon/gosu
+  - https://github.com/ncopa/su-exec
