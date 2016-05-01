@@ -58,3 +58,12 @@ I'm a DD, let's start with a few Debian notes (thanks [@nathanleclaire](https://
 - un-`USER`, add `gosu` and `docker-entrypoint.sh`
   - https://github.com/tianon/gosu
   - https://github.com/ncopa/su-exec
+
+
+# filler
+
+- `cluster-dind`
+  - https://github.com/tianon/docker-dind-cluster
+
+- `rawdns`
+  - https://github.com/tianon/rawdns
