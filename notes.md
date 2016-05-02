@@ -40,6 +40,11 @@ I'm a DD, let's start with a few Debian notes (thanks [@nathanleclaire](https://
   - https://github.com/krallin/tini
   - https://github.com/Yelp/dumb-init
 
+- real life examples:
+  - MySQL: no SIGINT handling (harmless, mostly just irritating)
+  - RabbitMQ: previous releases
+  - Ruby: zombies
+
 
 # hal-9000
 
@@ -60,6 +65,9 @@ I'm a DD, let's start with a few Debian notes (thanks [@nathanleclaire](https://
   - https://github.com/ncopa/su-exec
 
 - talk about `exec` in `docker-entrypoint.sh` and why it matters (pid 1, signals)
+
+- real life examples:
+  - pretty much any database (Cassandra, Elasticsearch, MongoDB, MySQL, PostgreSQL, RabbitMQ, Redis)
 
 
 # filler
