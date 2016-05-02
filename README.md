@@ -23,7 +23,7 @@
 ---
 
 - Happily Married, Father of Two
-- [SVP of Operations @ InfoSiftr](http://www.infosiftr.com)  BOOTH 648 at Interop!
+- [SVP of Operations @ InfoSiftr](http://www.infosiftr.com)  **BOOTH 648 at Interop!**
 - [Docker Core Maintainer](https://github.com/docker/docker/blob/172ca1ca8c4d5157789feb97a6424104b81a3479/MAINTAINERS#L42)
 - [OCI Runtime Spec TDC member](https://github.com/opencontainers/runtime-spec/blob/9d1998240a15ff6d226c2d4353b6dd6259728760/MAINTAINERS#L8)
 - [Debian Developer, uploading](https://qa.debian.org/developer.php?login=tianon)
