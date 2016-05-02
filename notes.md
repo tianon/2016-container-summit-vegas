@@ -59,6 +59,9 @@ I'm a DD, let's start with a few Debian notes (thanks [@nathanleclaire](https://
   - https://github.com/tianon/gosu
   - https://github.com/ncopa/su-exec
 
+- talk about `exec` in `docker-entrypoint.sh` and why it matters (pid 1)
+  - if time, modify app.sh to care about whether it's pid 1
+
 
 # filler
 
