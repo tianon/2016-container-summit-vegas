@@ -68,5 +68,10 @@ I'm a DD, let's start with a few Debian notes (thanks [@nathanleclaire](https://
 - `cluster-dind`
   - https://github.com/tianon/docker-dind-cluster
 
+- "personal jenkins" (insert CI of your choice here)
+  - beats random cron jobs you lose track of or forget about
+  - easy to debug and manually fire
+  - easy web interface for checking status
+
 - `rawdns`
   - https://github.com/tianon/rawdns
