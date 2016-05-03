@@ -5,6 +5,8 @@ yeah, in Vim (dat my "slides")
 
 # warning
 
+these aren't new problems, but they still come up so regularly that I feel they're worth repeating (and actually demoing)
+
 if you're already familiar with the problems/solutions I'm going to be demonstrating, this might be a little bit slow-paced for your taste
 
 
