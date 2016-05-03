@@ -19,6 +19,7 @@
 - [@tianon on GitHub](https://github.com/tianon)
 - [@tianon on Twitter](https://twitter.com/tianon)
 - `tianon` on several popular IRC networks
+- `4096R / B42F 6819 007F 00F8 8E36  4FD4 036A 9C25 BF35 7DD4`
 
 ---
 
